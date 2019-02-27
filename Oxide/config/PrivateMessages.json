@@ -1,0 +1,7 @@
+{
+  "Settings": {
+    "Cooldown_Enabled": false,
+    "Cooldown_Seconds": 3,
+    "UFilter_Enabled": false
+  }
+}

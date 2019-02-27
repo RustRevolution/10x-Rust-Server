@@ -1,0 +1,72 @@
+{
+  "Chat Prefix": "<color=#787FFF>Bot </color>",
+  "Show Chat Prefix": true,
+  "Bot Icon (SteamID)": 0,
+  "Cooldown Between Auto Responses For User": "10s",
+  "Global Cooldown Between Auto Responses": "2s",
+  "Use Default Chat (0), Chat Plus (1), Better Chat (2)": 2,
+  "Debug": false,
+  "Allow Multiple Auto Responses": false,
+  "Minimal Time Between Message And Answer": 1,
+  "Maximal Time Between Message And Answer": 5,
+  "Welcome Message": [
+    "Welcome, {name}!",
+    "Hello, dear {name}!",
+    "Hello, {name}!"
+  ],
+  "Welcome Message Enabled": false,
+  "Joining Message": [
+    "Welcome, {name} ({id}, {ip})!",
+    "Hello, dear {name} ({id}, {ip})!",
+    "{name} came from {country} ({countrycode})"
+  ],
+  "Leaving Message": [
+    "Bye, {name} ({id}, {ip})!\nReason: {reason}",
+    "{name} ({id}, {ip}) left the game. Reason: {reason}",
+    "{name} from {country} ({countrycode}) just left the game!"
+  ],
+  "Joining Message Enabled": false,
+  "Leaving Message Enabled": false,
+  "Show Joining Message To Player That Joined": false,
+  "Show Leaving Message To Player That Left": false,
+  "Auto Messages": [
+    {
+      "Permission": "smartchatbot.messages",
+      "Message Frequency": "5m",
+      "Auto Messages": [
+        {
+          "Is Enabled": true,
+          "Message": "Consider Donating To Get New Features:https://sdonate.com/stores/SyntaxNetwork/"
+        }
+      ]
+    }
+  ],
+  "Auto Responses": [
+    {
+      "Permission": "smartchatbot.response",
+      "Auto Responses": [
+        {
+          "Is Enabled": false,
+          "Remove Message From Sender": false,
+          "Send Response For Everyone (true) or Only For Sender (false)": true,
+          "Triggers": [
+            {
+              "Percentage Of Contained Words": 0.75,
+              "Regex Enabled": false,
+              "Words": [
+                "How",
+                "this",
+                "bot",
+                "works"
+              ]
+            }
+          ],
+          "Answers": [
+            "This bot really works.",
+            "IT WORKS OMG!"
+          ]
+        }
+      ]
+    }
+  ]
+}

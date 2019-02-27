@@ -1,0 +1,99 @@
+{
+  "Settings": {
+    "ChatName": "<color=red>Teleportation</color>: ",
+    "HomesEnabled": true,
+    "TPREnabled": true,
+    "TownEnabled": true,
+    "InterruptTPOnHurt": true,
+    "InterruptTPOnSafe": false,
+    "InterruptTPOnMonument": false,
+    "BlockedItems": {},
+    "BypassCMD": null,
+    "UseEconomics": false,
+    "UseServerRewards": false
+  },
+  "Admin": {
+    "AnnounceTeleportToTarget": false,
+    "UseableByModerators": true,
+    "LocationRadius": 25,
+    "TeleportNearDefaultDistance": 30
+  },
+  "Home": {
+    "HomesLimit": 16,
+    "VIPHomesLimits": {
+      "nteleportation.vip": 20
+    },
+    "Cooldown": 1,
+    "Countdown": 3,
+    "DailyLimit": 500,
+    "VIPDailyLimits": {
+      "nteleportation.vip": 1000
+    },
+    "VIPCooldowns": {
+      "nteleportation.vip": 3
+    },
+    "VIPCountdowns": {
+      "nteleportation.vip": 2
+    },
+    "LocationRadius": 25,
+    "ForceOnTopOfFoundation": true,
+    "CheckFoundationForOwner": true,
+    "UseFriends": true,
+    "UsableOutOfBuildingBlocked": false,
+    "UsableIntoBuildingBlocked": false,
+    "CupOwnerAllowOnBuildingBlocked": true,
+    "AllowIceberg": true,
+    "AllowCave": true,
+    "AllowCraft": true,
+    "AllowAboveFoundation": true,
+    "CheckValidOnList": false,
+    "Pay": 0,
+    "Bypass": 0
+  },
+  "TPR": {
+    "Cooldown": 10,
+    "Countdown": 3,
+    "DailyLimit": 500,
+    "VIPDailyLimits": {
+      "nteleportation.vip": 1000
+    },
+    "VIPCooldowns": {
+      "nteleportation.vip": 3
+    },
+    "VIPCountdowns": {
+      "nteleportation.vip": 3
+    },
+    "RequestDuration": 30,
+    "BlockTPAOnCeiling": true,
+    "UsableOutOfBuildingBlocked": false,
+    "UsableIntoBuildingBlocked": false,
+    "CupOwnerAllowOnBuildingBlocked": true,
+    "AllowCraft": false,
+    "Pay": 0,
+    "Bypass": 0
+  },
+  "Town": {
+    "Cooldown": 180,
+    "Countdown": 15,
+    "DailyLimit": 500,
+    "VIPDailyLimits": {
+      "nteleportation.vip": 1000
+    },
+    "VIPCooldowns": {
+      "nteleportation.vip": 3
+    },
+    "VIPCountdowns": {
+      "nteleportation.vip": 3
+    },
+    "Location": "1098.499 0.671212 -715.1647",
+    "UsableOutOfBuildingBlocked": false,
+    "AllowCraft": false,
+    "Pay": 0,
+    "Bypass": 0
+  },
+  "Version": {
+    "Major": 1,
+    "Minor": 0,
+    "Patch": 42
+  }
+}

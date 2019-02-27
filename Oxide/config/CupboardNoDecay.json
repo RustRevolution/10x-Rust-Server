@@ -1,0 +1,18 @@
+{
+  "ArmorRate": 0.0,
+  "CheckAuth": false,
+  "DecayArmor": false,
+  "DecayMetal": false,
+  "DecayStone": false,
+  "DecayTwig": true,
+  "DecayWood": false,
+  "EntityRadius": 30.0,
+  "MetalRate": 0.0,
+  "NeverDecay": [
+    "RHIB",
+    "Rowboat"
+  ],
+  "StoneRate": 0.0,
+  "TwigRate": 1.0,
+  "WoodRate": 0.0
+}

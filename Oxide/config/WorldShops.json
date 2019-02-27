@@ -1,0 +1,30 @@
+{
+  "Shops": [
+    {
+      "SellOrders": [
+        {
+          "SellItem": {
+            "ShortName": "rifle.ak",
+            "Quantity": 1,
+            "Blueprint": true
+          },
+          "BuyItem": {
+            "ShortName": "scrap",
+            "Quantity": 1500,
+            "Blueprint": false
+          }
+        }
+      ],
+      "WorldName": "Test Shop",
+      "CommandName": "test",
+      "SkinId": 0,
+      "BuildingBlockedDistance": 50.0
+    }
+  ],
+  "Notification": {
+    "Enabled": true,
+    "FadeIn": 0.5,
+    "WaitTime": 2.0,
+    "FadeOut": 0.5
+  }
+}

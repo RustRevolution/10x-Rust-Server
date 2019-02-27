@@ -1,0 +1,32 @@
+{
+  "Item Placement Options": {
+    "Item placement maximum distance from player": 4.0
+  },
+  "RustNET Interface Options": {
+    "Require building privilege to access the interface": true,
+    "Terminal overlay image URL": "http://www.chaoscode.io/oxide/Images/RustNET/terminal.png",
+    "UI Panel Colors": {
+      "Background": {
+        "Color (hex)": "#1c2c24",
+        "Alpha (0.0 - 1.0)": 0.98
+      },
+      "Panel": {
+        "Color (hex)": "#13221b",
+        "Alpha (0.0 - 1.0)": 1.0
+      },
+      "Button": {
+        "Color (hex)": "#214633",
+        "Alpha (0.0 - 1.0)": 0.9
+      },
+      "Selected": {
+        "Color (hex)": "#387857",
+        "Alpha (0.0 - 1.0)": 0.9
+      }
+    }
+  },
+  "Version": {
+    "Major": 0,
+    "Minor": 1,
+    "Patch": 20
+  }
+}

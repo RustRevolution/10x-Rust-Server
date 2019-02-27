@@ -1,0 +1,32 @@
+{
+  "Text Display Frequency (Seconds)": 0.3,
+  "Enable Messages Cyclicity": false,
+  "Use Random Cyclicity (Instead of sequential)": false,
+  "Cycle Messages Every ~N Seconds": 3.0,
+  "Messages": [
+    {
+      "Top Status": "<color=cyan>Welcome to Syntax Network!</color>",
+      "Bottom Status": "<color=lightblue>Discord: https://discord.gg/u5XXjfh</color>"
+    },
+    {
+      "Top Status": "<color=lightblue>Welcome to Syntax Network!</color>",
+      "Bottom Status": "<color=yellow>Discord:https://discord.gg/u5XXjfh</color>"
+    }
+  ],
+  "Enable Queue Messages": false,
+  "Queue Messages": [
+    {
+      "Top Status": "<color=yellow>You're in queue...</color>",
+      "Bottom Status": "<color=lightblue>{AHEAD} players ahead of you.</color>"
+    },
+    {
+      "Top Status": "<color=lightblue>You're in queue...</color>",
+      "Bottom Status": "<color=yellow>{BEHIND} players behind you.</color>"
+    }
+  ],
+  "QueuePosition": null,
+  "Last Message (When entering game)": {
+    "Top Status": "<color=yellow>Welcome to our server!</color>",
+    "Bottom Status": "<color=green>Entering game...</color>"
+  }
+}

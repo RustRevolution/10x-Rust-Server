@@ -1,0 +1,20 @@
+{
+  "Camera Options": {
+    "Allow players to cycle through all linked cameras": true,
+    "Allow friends and clan members to place/remove cameras": true,
+    "Require building privilege to place/remove cameras": false,
+    "Maximum allowed cameras per base (Permission | Amount)": {
+      "securitycameras.use": 4,
+      "securitycameras.pro": 10
+    },
+    "Camera placement and removal distance": 4,
+    "Display camera overlay UI": true,
+    "Camera overlay image URL": "http://www.chaoscode.io/oxide/Images/RustNET/camera.png",
+    "Camera icon URL for RustNET menu": "http://www.chaoscode.io/oxide/Images/RustNET/cameraicon.png"
+  },
+  "Version": {
+    "Major": 0,
+    "Minor": 2,
+    "Patch": 21
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "Apikey": "NTMwOTA4NTcyNTc4NzQyMjk3.Dy6Z5A.W0kC0NYyQ1q28kw3NcW6DItFpFo",
+  "Channels": [
+    {
+      "Channelid": "538891890867568660",
+      "perms": [
+        "cmd_allow",
+        "cmd_players",
+        "cmd_kick",
+        "cmd_com",
+        "p_connect",
+        "p_aconnect",
+        "p_disconnect",
+        "p_death",
+        "p_chat",
+        "p_report",
+        "msg_plugininit",
+        "msg_serverinit"
+      ]
+    }
+  ],
+  "Commandprefix": "!",
+  "Commandroles": {
+    "command": [
+      "rolename1",
+      "rolename2"
+    ]
+  }
+}

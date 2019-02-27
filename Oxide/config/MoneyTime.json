@@ -1,0 +1,10 @@
+{
+  "BasePayout": 1000.0,
+  "PayoutInterval": 1800,
+  "ReceivedForPlaying": "You've received ${amount} for actively playing!",
+  "ReceivedForTimeAlive": "You've received ${amount} for staying alive for {time}!",
+  "ReceivedWelcomeBonus": "You've received ${amount} as a welcome bonus!",
+  "TimeAliveBonus": true,
+  "TimeAliveMultiplier": 2.0,
+  "WelcomeBonus": 10000.0
+}

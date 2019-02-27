@@ -1,0 +1,140 @@
+{
+  "AbuseControl": {
+    "PreventPlacementAboveDeployables": true,
+    "PreventPlacementInCaves": true,
+    "SleepWatchDelay": 180,
+    "SleepWatchEnabled": true,
+    "SleepWatchInterval": 60,
+    "SleepWatchMoveDown": true
+  },
+  "Administrative": {
+    "AdmAccessAuthLevel": 2,
+    "AdmAccessPermission": "admaccess",
+    "AdmAccessSwitchable": true,
+    "AdmAccessToggleCmd": "liftadmin",
+    "AdmPseudoPerms": [
+      "fauxadm.allowed",
+      "fakeadmin.allow"
+    ],
+    "AdmSwitchEnabledAtLogin": true
+  },
+  "Commands": {
+    "Reset lift movement": "liftaid",
+    "Start lift creation": "newlift"
+  },
+  "Debug": {
+    "LoadOverrideCorrupted": false,
+    "VersionMajor": 1,
+    "VersionMinor": 2
+  },
+  "Formatting": {
+    "PluginPrefix": "Up·Lift·ed",
+    "PrefixColor": "#468499",
+    "PrefixFormat": "<color={0}>{1}</color>: "
+  },
+  "HealthCare": {
+    "EnableEntIdKillProtection": false,
+    "EnableRemoverToolProtection": false,
+    "EnableSetHomeDeny": true,
+    "IsGroundBlockVulnerable": false,
+    "LastStableFloor": 18
+  },
+  "Permission": {
+    "AccessControl": {
+      "AccessVipShare": {
+        "admin": true,
+        "default": true,
+        "vip_ex": false
+      },
+      "BaseComfort": {
+        "admin": 100,
+        "default": 0,
+        "vip_ex": 25
+      },
+      "BaseTemperature": {
+        "admin": 34,
+        "default": 0,
+        "vip_ex": 17
+      },
+      "BuildCostMultiplier": {
+        "admin": 1.0,
+        "default": 2.0,
+        "vip_ex": 1.5
+      },
+      "CanCreate": {
+        "admin": true,
+        "default": true,
+        "vip_ex": true
+      },
+      "CanPlaceOnFloor": {
+        "admin": true,
+        "default": true,
+        "vip_ex": false
+      },
+      "CanReskin": {
+        "admin": true,
+        "default": false,
+        "vip_ex": true
+      },
+      "DoorSkin": {
+        "admin": 1276338615,
+        "default": 1276338615,
+        "vip_ex": 1276338615
+      },
+      "EnableBuildCost": {
+        "admin": false,
+        "default": true,
+        "vip_ex": true
+      },
+      "EnableFuelUsage": {
+        "admin": true,
+        "default": true,
+        "vip_ex": true
+      },
+      "FuelConsumePerFloor": {
+        "admin": 1,
+        "default": 5,
+        "vip_ex": 3
+      },
+      "FuelStorageItemSlots": {
+        "admin": 6,
+        "default": 1,
+        "vip_ex": 3
+      },
+      "FuelStorageStackSize": {
+        "admin": 0,
+        "default": 500,
+        "vip_ex": 1000
+      },
+      "MaxFloorLevel": {
+        "admin": -1,
+        "default": 5,
+        "vip_ex": 10
+      },
+      "MaxFloorRange": {
+        "admin": 15,
+        "default": 3,
+        "vip_ex": 7
+      },
+      "MaxLiftPerUser": {
+        "admin": -1,
+        "default": 1,
+        "vip_ex": 2
+      },
+      "MaxMoveSpeed": {
+        "admin": 5,
+        "default": 1,
+        "vip_ex": 3
+      },
+      "MaxPlacementFloor": {
+        "admin": -1,
+        "default": 2,
+        "vip_ex": 3
+      }
+    }
+  },
+  "Support": {
+    "EnableClanSharing": true,
+    "EnableFriendSharing": true
+  }
+}

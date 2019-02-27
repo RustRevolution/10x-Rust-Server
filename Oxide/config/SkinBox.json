@@ -1,0 +1,53 @@
+{
+  "AvailableSkins": {
+    "approvedSkinsLimit": -1,
+    "maxPagesShown": 2,
+    "useApprovedSkins": false,
+    "usedConnectionsToWorkshop": 1,
+    "usedRankedByTrendDays": 30,
+    "useInbuiltSkins": true,
+    "useManualAddedSkins": true,
+    "useWebskinsRankedByTrend": true
+  },
+  "Cooldown": {
+    "activateAfterSkinTaken": true,
+    "cooldownBox": 60,
+    "cooldownOverrideAdmin": true,
+    "cooldownOverrideAuthLevel": 2,
+    "enableCooldown": false
+  },
+  "CustomPermissions": {
+    "enableCustomPerms": false,
+    "permCustomDeployable": "skinbox.deployable",
+    "permCustomPlayerwearable": "skinbox.playerwearable",
+    "permCustomWeapon": "skinbox.weapon"
+  },
+  "Settings": {
+    "accessOverrideAuthLevel": 2,
+    "allowStackedItems": false,
+    "exludedSkinsAuthLevel": 2,
+    "hideQuickSort": true,
+    "permissionUse": "skinbox.use",
+    "showLoadedSkinCounts": true,
+    "skinBoxCommand": "skinbox",
+    "steamApiKey": "https://steamcommunity.com/dev/apikey << get the key there"
+  },
+  "SkinsAdded": {
+    "SkinList": {}
+  },
+  "SkinsExcluded": {
+    "SkinList": []
+  },
+  "UsageCost": {
+    "costBoxOpen": 5,
+    "costDeployable": 10,
+    "costExcludeAdmins": true,
+    "costExcludePerm": "skinbox.costexcluded",
+    "costExcludePermEnabled": false,
+    "costPlayerwearable": 20,
+    "costWeapon": 30,
+    "enableUsageCost": false,
+    "useEconomics": false,
+    "useServerRewards": true
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "Enable logging, save to oxide/logs/EasyVoteHighestvoter (true / false)": true,
+  "Interval timer (seconds)": 1800,
+  "Highest voter reward (item, group or both)": "group",
+  "Highest voter reward group (group name)": "hero",
+  "Highest voter reward item(s) (Item.Shortname:Amount => http://docs.oxidemod.org/rust/#item-list)": "wood:1000,supply.signal:1"
+}

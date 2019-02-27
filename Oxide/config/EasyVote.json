@@ -1,0 +1,72 @@
+{
+  "Commands": {
+    "money": "deposit {playerid} {value}",
+    "oxidegrantgroup": "oxide.usergroup add {playerid} {value}",
+    "oxidegrantperm": "oxide.grant user {playerid} {value}",
+    "oxiderevokegroup": "oxide.usergroup remove {playerid} {value}",
+    "oxiderevokeperm": "oxide.revoke user {playerid} {value}",
+    "rp": "sr add {playerid} {value}",
+    "tempaddgroup": "addgroup {playerid} {value} {value2}",
+    "tempgrantperm": "grantperm {playerid} {value} {value2}",
+    "zlvl-*": "zl.lvl {playerid} * +{value}",
+    "zlvl-c": "zl.lvl {playerid} C +{value}",
+    "zlvl-m": "zl.lvl {playerid} M +{value}",
+    "zlvl-s": "zl.lvl {playerid} S +{value}",
+    "zlvl-wc": "zl.lvl {playerid} WC +{value}"
+  },
+  "Discord": {
+    "Discord webhook (URL)": "https://discordapp.com/api/webhooks/531282742927949834/oQOGM7-FvBhuMwdfG73-8_id1sugaSa41eW309K6_1Ac1KJFP6jgd-IHT65tILuwH5ug",
+    "DiscordMessage Enabled (true / false)": "false",
+    "Enable @here alert (true / false)": "false",
+    "Title": "Vote"
+  },
+  "Rewards": {
+    "@": [
+      "supply.signal: 1",
+      "zlvl-*: 1"
+    ],
+    "first": [
+      "scrap: 1000"
+    ],
+    "vote10": [
+      "supply.signal: 4",
+      "rp: 10000",
+      "scrap: 2000"
+    ],
+    "vote3": [
+      "supply.signal: 3"
+    ],
+    "vote6": [
+      "rp: 10000",
+      "supply.signal: 6"
+    ]
+  },
+  "Servers": {
+    "ServerName1": {
+      "Beancan": "ID:KEY",
+      "RustServers": "147569:LIDiHONW3Ew2QSKg4Xy8UulgKAAmBiMlc5"
+    },
+    "ServerName2": {
+      "Beancan": "ID:KEY"
+    }
+  },
+  "Settings": {
+    "Enable logging => oxide/logs/EasyVote (true / false)": "true",
+    "Globally announcment in chat when player voted (true / false)": "true",
+    "Prefix": "<color=cyan>[EasyVote]</color>",
+    "Send thank you message to player who voted (true / false)": "true",
+    "Vote rewards cumulative (true / false)": "false"
+  },
+  "VoteSitesAPI": {
+    "Beancan": {
+      "API Claim Reward (GET URL)": "http://beancan.io/vote/put/{0}/{1}",
+      "API Vote status (GET URL)": "http://beancan.io/vote/get/{0}/{1}",
+      "Vote link (URL)": "http://beancan.io/server/{0}"
+    },
+    "RustServers": {
+      "API Claim Reward (GET URL)": "http://rust-servers.net/api/?action=custom&object=plugin&element=reward&key={0}&steamid={1}",
+      "API Vote status (GET URL)": "http://rust-servers.net/api/?object=votes&element=claim&key={0}&steamid={1}",
+      "Vote link (URL)": "http://rust-servers.net/server/{0}"
+    }
+  }
+}

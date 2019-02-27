@@ -1,0 +1,122 @@
+{
+  "Chat Settings": {
+    "ChatColor": "#b7f5ff",
+    "Prefix": "[NTD] :",
+    "PrefixColor": "#42d7f4"
+  },
+  "Discord Settings": {
+    "BotToken": "NTMwOTA4NTcyNTc4NzQyMjk3.DxGOww.5NEbQUS91tECP-FBlBHfq0nPKQg",
+    "ChannelID": "538891890867568660"
+  },
+  "Discord Webhook": {
+    "URL from your Discord channel": "",
+    "Use WebHook via DicordMessages plugin dependency": false
+  },
+  "NOTIFY -=- ADMIN": {
+    "Group granted permission": true,
+    "Group revoked permission": true,
+    "Player Banned": true,
+    "Player Kicked": true,
+    "Player Unbanned": true,
+    "User granted permission": true,
+    "User revoked permission": true
+  },
+  "NOTIFY -=- BOTS -=- APC/NPC": {
+    "BRADLEY APC on hunt": true
+  },
+  "NOTIFY -=- HACK VIOLATION": {
+    "Player Hack Violation": true
+  },
+  "NOTIFY -=- MESSAGES -=- PLAYER/SERVER": {
+    "On Player Chat message": true,
+    "On Server message": true
+  },
+  "NOTIFY -=- PLANE/HELI": {
+    "airdrop": true,
+    "CH47 has been killed": true,
+    "CH47 is under attack": true,
+    "Hack of Crate has ended": true,
+    "Hack of Crate has started": true,
+    "Hackable Crate Dropped": true
+  },
+  "NOTIFY -=- PLAYER -=- ACTIONS/ENTITY": {
+    "codelock change": false,
+    "Player has dismounted": false,
+    "Player is trying to dismount": false,
+    "Player is trying to mount": false,
+    "Player tries to unlock": false,
+    "Players has mounted": false
+  },
+  "NOTIFY -=- PLAYER -=- CONNECT/SPAWN/SLEEP": {
+    "Player has Connected": true,
+    "Player has Disconnected": true,
+    "Player Respawn": true,
+    "Player Respawned": false,
+    "Player Sleep Ended": true,
+    "Player Sleep Started": true,
+    "Player Spawn": true
+  },
+  "NOTIFY -=- PLAYER -=- ELSE": {
+    "Player is speaking in a microphone": false,
+    "Player updated name": false
+  },
+  "NOTIFY -=- PLAYER -=- FIGHT": {
+    "Player is attacking": false
+  },
+  "NOTIFY -=- PLAYER -=- HEALTH/KILL/DEMOLISH": {
+    "Player demolishing entity": false,
+    "Player Die": false,
+    "Player wounded": false
+  },
+  "NOTIFY -=- PLAYER -=- LOOT": {
+    "Player is looting item": false,
+    "Player Loot Entity": false,
+    "Player Loot Player": false
+  },
+  "NOTIFY -=- SERVER -=- PLUGIN": {
+    "Plugin Loaded": true,
+    "Plugin Unloaded": true,
+    "RCon Command": true,
+    "RCon Connection": true,
+    "Server Save": true
+  },
+  "NOTIFY -=- SHOP -=- BONUS": {
+    "a door has been knocked": true,
+    "a Player is accessing a mailbox": true,
+    "New sell offer added in VendingMachine": false,
+    "Player customer has complete a shop trade": false,
+    "player receive bonus item": false,
+    "player start a oven": false,
+    "player update a sign": false
+  },
+  "NOTIFY -=- SPECTATE": {
+    "Player Spectate": false,
+    "Player Spectate End": false
+  },
+  "NOTIFY BONUS -=- ONLINE PLAYERS REPORTER -=-": {
+    "Report online players count; refresh on players connections and every 15min": true
+  },
+  "NOTIFY DANGEROUS TREASURES -=- MESSAGE -=-": {
+    "DangerousTreasures message to player": false
+  },
+  "NOTIFY EXTENDED -=- BOTS -=- APC/NPC": {
+    "NPC is attacking entity": false
+  },
+  "NOTIFY EXTENDED -=- HELI/PLANE -=- ": {
+    "Chinook spawned": true,
+    "Helicopter spawned": true
+  },
+  "NOTIFY EXTENDED -=- PLAYER -=- MISC & ROLEPLAY": {
+    "NPC is attacking entity": false,
+    "player received a snapshot": false
+  },
+  "NOTIFY EXTENDED -=- VEHICLE -=- ": {
+    "Player using car": false
+  },
+  "PLAYER -=- ACTIONS/ENTITY": {
+    "code entered": false
+  },
+  "Settings": {
+    "SteamIDIcon": "76561198044414155"
+  }
+}

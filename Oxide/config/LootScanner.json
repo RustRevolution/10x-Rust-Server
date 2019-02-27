@@ -1,0 +1,13 @@
+{
+  "Color Common": "#56c63f",
+  "Color None": "white",
+  "Color Rare": "#b675f3",
+  "Color Uncommon": "#0097ff",
+  "Color Very Rare": "#ffbf17",
+  "Define the side of GUI (Left - Right)": "Right",
+  "Define the y position of GUI": 0.98,
+  "Hide Airdrop's content": false,
+  "Hide CH47 crate content": false,
+  "Hide common lootable container": false,
+  "Hide heli and Bradley crate content": false
+}

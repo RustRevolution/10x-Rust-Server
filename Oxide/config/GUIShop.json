@@ -1,0 +1,184 @@
+{
+  "Message - Bought": "You've successfully bought {0}x {1}",
+  "Message - Error - Building Blocked": "You cannot shop while in building blocked area.",
+  "Message - Error - Command Multiple": "Can't buy multiple",
+  "Message - Error - Cooldown": "This item has a cooldown of {0} seconds.",
+  "Message - Error - Cooldown Amount": "This item has a cooldown and amount is limited to 1.",
+  "Message - Error - Invetory Full": "Your inventory is full.",
+  "Message - Error - Invetory Slots": "Your inventory needs {0} free slots.",
+  "Message - Error - Item Doesnt Exist": "WARNING: The item you are trying to buy doesn't seem to exist",
+  "Message - Error - Item Not Set Properly": "WARNING: The admin didn't set this item properly! (item)",
+  "Message - Error - Item Not Valid": "WARNING: It seems like it's not a valid item",
+  "Message - Error - No Action In Shop": "You are not allowed to {0} in this shop",
+  "Message - Error - No Action Item": "You are not allowed to {0} this item here",
+  "Message - Error - No Buy Price": "WARNING: No buy price was given by the admin, you can't buy this item",
+  "Message - Error - No Chat Shop": "You may not use the chat shop. You might need to find the NPC Shops.",
+  "Message - Error - No Econonomics": "Couldn't get informations out of Economics. Is it installed?",
+  "Message - Error - No NPC": "The NPC owning this shop was not found around you",
+  "Message - Error - No Sell Price": "WARNING: No sell price was given by the admin, you can't sell this item",
+  "Message - Error - No Shop": "This shop doesn't seem to exist.",
+  "Message - Error - Not Enough Items": "You don't have enough of this item.",
+  "Message - Error - Not Enough Money": "You need {0} coins to buy {1} of {2}",
+  "Message - Error - Not Nothing": "You cannot buy nothing of this item.",
+  "Message - Error - Redeem Kit": "WARNING: There was an error while giving you this kit",
+  "Message - Sold": "You've successfully sold {0}x {1}",
+  "Shop - Balance": true,
+  "Shop - Shop Categories": {
+"RHIB": {
+      "buy": "1000",
+      "img": "https://rustlabs.com/content/screenshots/rhib.png",
+      "item": "rhib",
+      "sell": "1250"
+    },   
+"Rifle Body": {
+      "buy": "3000",
+      "img": "https://vignette.wikia.nocookie.net/play-rust/images/0/08/Rifle_Body_icon.png/revision/latest/scale-to-width-down/350?cb=20161109045853",
+      "item": "Rifle Body",
+      "sell": "1250"
+    },
+"SMG Body": {
+      "buy": "1500",
+      "img": "https://vignette.wikia.nocookie.net/play-rust/images/d/d8/SMG_Body_icon.png/revision/latest/scale-to-width-down/350?cb=20161109045947",
+      "item": "SMG Body",
+      "sell": "500"
+    },
+"Assault Rifle": {
+      "buy": "4000",
+      "img": "https://vignette.wikia.nocookie.net/play-rust/images/d/d1/Assault_Rifle_icon.png/revision/latest/window-crop/width/130/x-offset/0/y-offset/3/window-width/256/window-height/226?cb=20160211200609",
+      "item": "Assault Rifle",
+      "sell": "2500"
+    },
+"Custom SMG": {
+      "buy": "2000",
+      "img": "https://vignette.wikia.nocookie.net/play-rust/images/9/95/Custom_SMG_icon.png/revision/latest?cb=20151108000740",
+      "item": "smg.2",
+      "sell": "750"
+    },
+"Large Medkit": {
+      "buy": "200",
+      "img": "https://vignette.wikia.nocookie.net/play-rust/images/9/99/Large_Medkit_icon.png/revision/latest?cb=20151106054425",
+      "item": "Large Medkit",
+      "sell": "100"
+    },
+"Medical Syringe": {
+      "buy": "100",
+      "img": "https://vignette.wikia.nocookie.net/play-rust/images/9/99/Medical_Syringe_icon.png/revision/latest?cb=20151106061059",
+      "item": "Medical Syringe",
+      "sell": "50"
+    },
+"Anti-Radiation Pills": {
+      "buy": "50",
+      "img": "https://vignette.wikia.nocookie.net/play-rust/images/0/0e/Anti-Radiation_Pills_icon.png/revision/latest?cb=20151106060926",
+      "item": "Anti-Radiation Pills",
+      "sell": "25"
+    },
+"CCTV Camera": {
+      "buy": "5000",
+      "img": "https://vignette.wikia.nocookie.net/play-rust/images/2/24/CCTV_Camera_icon.png/revision/latest/scale-to-width-down/350?cb=20151106062215",
+      "item": "CCTV Camera",
+      "sell": "500"
+    },
+"Targeting Computer": {
+      "buy": "5000",
+      "img": "https://vignette.wikia.nocookie.net/play-rust/images/0/07/Targeting_Computer_icon.png/revision/latest/scale-to-width-down/350?cb=20151106062210",
+      "item": "Targeting Computer",
+      "sell": "500"
+    },
+"Supply Signal": {
+      "buy": "10000",
+      "img": "https://vignette.wikia.nocookie.net/play-rust/images/2/24/Supply_Signal_icon.png/revision/latest?cb=20151106071621",
+      "item": "Supply Signal",
+      "sell": "500"
+    },
+"Jackhammer": {
+      "buy": "10000",
+      "img": "https://rustlabs.com/img/items180/jackhammer.png",
+      "item": "Jackhammer",
+      "sell": "500"
+    },
+"Chainsaw": {
+      "buy": "10000",
+      "img": "https://rustlabs.com/img/items180/chainsaw.png",
+      "item": "Chainsaw",
+      "sell": "500"
+    },
+"Survey Charge": {
+      "buy": "50",
+      "img": "https://rustlabs.com/img/items180/surveycharge.png",
+      "item": "Survey Charge",
+      "sell": "50"
+    },
+"Mining Quarry": {
+      "buy": "50000",
+      "img": "https://rustlabs.com/img/items180/mining.quarry.png",
+      "item": "Mining Quarry",
+      "cooldown": "604800",
+      "sell": "10000"
+    },
+"Pump Jack": {
+      "buy": "50000",
+      "img": "https://rustlabs.com/img/items180/mining.pumpjack.png",
+      "item": "Pump Jack",
+      "cooldown": "604800",
+      "sell": "10000"
+    },
+"Recycler": {
+      "buy": "25000",
+      "img": "https://vignette.wikia.nocookie.net/play-rust/images/e/ef/Recycler_icon.png/revision/latest?cb=20161105162407",
+      "item": "recycler static",
+      "sell": "5000"
+    },
+"Kit: Supply Signal": {
+      "buy": "0",
+      "img": "https://vignette.wikia.nocookie.net/play-rust/images/2/24/Supply_Signal_icon.png/revision/latest?cb=20151106071621",
+      "item": "Supply Signal",
+      "cooldown": "7200",
+      "sell": "0"
+    },
+  },
+  "Shop - Shop Icon Url": "",
+  "Shop - Shop List": {
+    "chat": {
+      "buy": [
+        "Rifle Body",
+        "SMG Body",
+        "Assault Rifle",
+        "Custom SMG",
+        "CCTV Camera",
+        "Targeting Computer",
+        "Large Medkit",
+        "Medical Syringe",
+        "Anti-Radiation Pills",
+        "Jackhammer",
+        "Chainsaw",
+        "Survey Charge",
+        "Mining Quarry",
+        "Pump Jack",
+        "Supply Signal",
+        "rhib",
+        "Recycler"
+      ],
+      "description": "You currently have {0} coins to spend in this Market",
+      "name": "Weapons, parts and medical (More items upcoming soon) 3 chapters!",
+      "sell": [
+        "Rifle Body",
+        "SMG Body",
+        "Assault Rifle",
+        "Custom SMG",
+        "CCTV Camera",
+        "Targeting Computer",
+        "Large Medkit",
+        "Medical Syringe",
+        "Anti-Radiation Pills",
+        "Jackhammer",
+        "Chainsaw",
+        "Survey Charge",
+        "Mining Quarry",
+        "Pump Jack",
+        "Supply Signal",
+        "rhib",
+        "Recycler"
+      ]
+    }
+  }
+}

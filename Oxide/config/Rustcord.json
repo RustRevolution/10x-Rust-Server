@@ -1,0 +1,34 @@
+{
+  "Apikey": "NTMwOTA4NTcyNTc4NzQyMjk3.DxGOww.5NEbQUS91tECP-FBlBHfq0nPKQg",
+  "Channels": [
+    {
+      "Channelid": "538892213413740554",
+      "perms": [
+        "cmd_allow",
+        "cmd_players",
+        "cmd_kick",
+        "cmd_com",
+        "p_connect",
+        "p_aconnect",
+        "p_disconnect",
+        "p_death",
+        "p_chat",
+        "p_report",
+        "msg_plugininit",
+        "msg_serverinit"
+      ]
+    }
+  ],
+  "Commandprefix": "!",
+  "Commandroles": {
+    "command": [
+      "rolename1",
+      "rolename2"
+    ]
+  },
+  "FilteredWord": "<censored>",
+  "FilterWords": [
+    "badword1",
+    "badword2"
+  ]
+}

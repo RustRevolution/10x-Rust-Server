@@ -1,0 +1,4 @@
+{
+  "Cooldown in seconds (0 to disable)": 30,
+  "Maximum heal amount (1 - infinity)": 100
+}

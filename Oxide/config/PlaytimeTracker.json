@@ -1,0 +1,32 @@
+{
+  "Options": {
+    "SaveTimer": 15,
+    "TrackAFKTime": true
+  },
+  "ReferralSystem": {
+    "IssueRewardForReferral": true,
+    "UseReferralSystem": true
+  },
+  "RewardSystem": {
+    "Enabled": true,
+    "Points": {
+      "Playtime_Points": 500,
+      "Playtime_PointTimer": 300,
+      "Referral_InvitePoints": 10000,
+      "Referral_JoinPoints": 10000
+    },
+    "RewardPlugins": {
+      "Hurtworld": {
+        "Economy": false
+      },
+      "Rust": {
+        "Economics": false,
+        "ServerRewards": true
+      },
+      "Universal": {
+        "UEconomics": false
+      }
+    },
+    "SendDepositMessage": true
+  }
+}

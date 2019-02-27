@@ -1,0 +1,10 @@
+{
+  "Check for free place": false,
+  "Normal Speed": [
+    "hammer"
+  ],
+  "Blacklist": [
+    "rock"
+  ],
+  "Split crafted stacks": false
+}

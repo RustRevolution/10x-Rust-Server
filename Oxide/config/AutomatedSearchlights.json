@@ -1,0 +1,65 @@
+{
+  "Detection Options": {
+    "Animals": {
+      "Enable this detection type": true,
+      "Range of detection": 30.0,
+      "Threat rating for priority targeting (1 - 5, 1 being the highest threat)": 4
+    },
+    "Enemy players and NPCs": {
+      "Enable this detection type": true,
+      "Range of detection": 45.0,
+      "Threat rating for priority targeting (1 - 5, 1 being the highest threat)": 2
+    },
+    "Friends and owner": {
+      "Enable this detection type": true,
+      "Range of detection": 45.0,
+      "Threat rating for priority targeting (1 - 5, 1 being the highest threat)": 5
+    },
+    "Cars and tanks": {
+      "Enable this detection type": true,
+      "Range of detection": 60.0,
+      "Threat rating for priority targeting (1 - 5, 1 being the highest threat)": 1
+    },
+    "Helicopters": {
+      "Enable this detection type": true,
+      "Range of detection": 100.0,
+      "Threat rating for priority targeting (1 - 5, 1 being the highest threat)": 3
+    }
+  },
+  "Management Options": {
+    "Allow lights to be set without requiring a terminal": false,
+    "Maximum allowed searchlights per base (Permission | Amount)": {
+      "automatedsearchlights.use": 4,
+      "automatedsearchlights.pro": 10
+    },
+    "Maximum distance a searchlight controller can be set away from the terminal": 50.0,
+    "Remote Settings": {
+      "Allow players to cycle through all linked searchlights": true,
+      "Can players toggle searchlight automation": true,
+      "Can players control the searchlight remotely": true,
+      "Can players access the searchlight inventory": true,
+      "Display camera overlay UI": true,
+      "Camera overlay image URL": "http://www.chaoscode.io/oxide/Images/RustNET/camera.png",
+      "Searchlight icon URL for RustNET menu": "http://www.chaoscode.io/oxide/Images/RustNET/searchlighticon.png"
+    }
+  },
+  "Light Options": {
+    "Consume fuel when light is automated": false,
+    "Sunrise hour": 8.0,
+    "Sunset hour": 19.0,
+    "Only automate lights at night time": true,
+    "Search mode": {
+      "Enable search mode when no targets are visable": true,
+      "Rotation speed of search mode": 15.0
+    },
+    "Flicker mode": {
+      "Enable flickering lights when damaged": true,
+      "Percentage of health before flickering starts": 50.0
+    }
+  },
+  "Version": {
+    "Major": 0,
+    "Minor": 2,
+    "Patch": 18
+  }
+}
