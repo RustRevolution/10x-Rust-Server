@@ -15,7 +15,7 @@
     "zlvl-wc": "zl.lvl {playerid} WC +{value}"
   },
   "Discord": {
-    "Discord webhook (URL)": "https://discordapp.com/api/webhooks/531282742927949834/oQOGM7-FvBhuMwdfG73-8_id1sugaSa41eW309K6_1Ac1KJFP6jgd-IHT65tILuwH5ug",
+    "Discord webhook (URL)": "",
     "DiscordMessage Enabled (true / false)": "false",
     "Enable @here alert (true / false)": "false",
     "Title": "Vote"
@@ -44,7 +44,7 @@
   "Servers": {
     "ServerName1": {
       "Beancan": "ID:KEY",
-      "RustServers": "147569:LIDiHONW3Ew2QSKg4Xy8UulgKAAmBiMlc5"
+      "RustServers": "ID:KEY"
     },
     "ServerName2": {
       "Beancan": "ID:KEY"
