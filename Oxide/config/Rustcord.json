@@ -1,8 +1,8 @@
 {
-  "Apikey": "NTMwOTA4NTcyNTc4NzQyMjk3.DxGOww.5NEbQUS91tECP-FBlBHfq0nPKQg",
+  "Apikey": "",
   "Channels": [
     {
-      "Channelid": "538892213413740554",
+      "Channelid": "",
       "perms": [
         "cmd_allow",
         "cmd_players",
